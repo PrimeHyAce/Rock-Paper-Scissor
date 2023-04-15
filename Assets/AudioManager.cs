@@ -37,7 +37,7 @@ public class AudioManager : MonoBehaviour
 
         bgm.volume = PlayerPrefs.GetFloat("bgmVolume", 1);
         sfx.volume = PlayerPrefs.GetFloat("sfxVolume", 1);
-        bgm.mute = PlayerPrefs.GetInt("mute") == 0 ? true : false;
+        bgm.mute = PlayerPrefs.GetInt("mute") == 1 ? true : false;
         
     }
 
