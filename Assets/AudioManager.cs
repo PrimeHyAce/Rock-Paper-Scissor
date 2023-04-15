@@ -35,9 +35,9 @@ public class AudioManager : MonoBehaviour
             DontDestroyOnLoad(sfx.gameObject);
         }
 
-        bgm.volume = PlayerPrefs.GetFloat("bgmVolume", 0);
-        sfx.volume = PlayerPrefs.GetFloat("sfxVolume", 0);
-        bgm.mute = PlayerPrefs.GetInt("mute") == 1 ? true : false;
+        bgm.volume = PlayerPrefs.GetFloat("bgmVolume", 1);
+        sfx.volume = PlayerPrefs.GetFloat("sfxVolume", 1);
+        bgm.mute = PlayerPrefs.GetInt("mute") == 0 ? true : false;
         
     }
 
