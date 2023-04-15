@@ -1021,7 +1021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc0232a67346224fbafab033ede58ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Bambang
+  name: Bruno
   type: 1
   currentHP: 100
   maxHP: 100
@@ -4740,7 +4740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc0232a67346224fbafab033ede58ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Deni
+  name: Diogo
   type: 0
   currentHP: 100
   maxHP: 100
@@ -5960,7 +5960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc0232a67346224fbafab033ede58ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Anton
+  name: Antony
   type: 0
   currentHP: 100
   maxHP: 100
@@ -6682,7 +6682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc0232a67346224fbafab033ede58ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Elon
+  name: Erik
   type: 1
   currentHP: 100
   maxHP: 100
@@ -9345,7 +9345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc0232a67346224fbafab033ede58ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Fera
+  name: Fred
   type: 2
   currentHP: 100
   maxHP: 100
@@ -9455,7 +9455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dc0232a67346224fbafab033ede58ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Caca
+  name: Casemiro
   type: 2
   currentHP: 100
   maxHP: 100

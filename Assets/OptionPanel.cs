@@ -30,4 +30,11 @@ public class OptionPanel : MonoBehaviour
     {
         sfxVolText.text = Mathf.RoundToInt(value * 100).ToString();
     }
+
+    public void SaveSettings()
+    {
+        PlayerPrefs.SetFloat("bgmVolume", audioManager.BGMVolume);
+        PlayerPrefs.SetFloat("sfxVolume", audioManager.SFXVolume);
+        PlayerPrefs.SetInt("mute", audioManager.IsMute ? 1 : 0);
+    }
 }
